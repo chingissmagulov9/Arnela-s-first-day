@@ -64,7 +64,12 @@ html, body { height:100%; background:var(--white); font-family:-apple-system,Bli
 #s2.active .stamp { opacity:1; transform:scale(1) rotate(-10deg); }
 
 /* s5 dark */
-#s5 { background:var(--black); }
+#s2, #s3, #s4, #s5 { background:var(--black); }
+#s2 .headline, #s3 .headline, #s4 .headline { color:var(--white); }
+#s2 .subtext, #s3 .subtext, #s4 .subtext { color:rgba(255,255,255,0.35); }
+#s2 .card-label, #s3 .card-label, #s4 .card-label { color:var(--gold); }
+#s2 .stamp { border-color:var(--white) !important; color:var(--white) !important; transform:scale(1) rotate(-10deg) !important; opacity:1 !important; }
+#s2 .divider, #s3 .divider, #s4 .divider { background:var(--gold); }
 #s5 .card-label { color:var(--gold); }
 #s5 .headline { color:var(--white); }
 #s5 .subtext { color:rgba(255,255,255,0.35); }
